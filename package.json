@@ -1,0 +1,23 @@
+{
+  "name": "4to_proyecto",
+  "version": "1.0.0",
+  "description": "SASS Y NPM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Luis Uriel @CodigoConUriel",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.80.5"
+  }
+}
